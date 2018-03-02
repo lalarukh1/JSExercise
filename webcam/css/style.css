@@ -1,0 +1,36 @@
+body {
+    width: 100%;
+}
+
+body p {
+    font-weight: bold;
+    text-align:left;
+    font-size: 20px;
+    color: rgb(211, 12, 45);
+    margin-left: 20px;
+}
+
+button {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 4px;
+    background-color: rgb(252, 250, 251);
+    color: rgb(182, 6, 6);
+    border: 2px solid rgb(202, 17, 88);
+    font-weight: bold;
+    font-size: 14px;
+    float: left;
+    margin: 3px;
+    left: 30px;
+    border-radius: 6px;
+    position: relative;
+    left: 14%;
+    bottom: 46px;
+}
+
+button:hover {
+    background-color: rgb(233, 203, 208);
+}
+
+#myCanvas {
+    border: thin solid rgb(146, 5, 5);
+}
